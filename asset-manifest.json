@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reeena-1994/Portfolio.git/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/reeena-1994/Portfolio.git/static/js/main.468eea20.chunk.js",
-    "main.js.map": "/reeena-1994/Portfolio.git/static/js/main.468eea20.chunk.js.map",
-    "runtime-main.js": "/reeena-1994/Portfolio.git/static/js/runtime-main.291a6a92.js",
-    "runtime-main.js.map": "/reeena-1994/Portfolio.git/static/js/runtime-main.291a6a92.js.map",
-    "static/js/2.7e41dff7.chunk.js": "/reeena-1994/Portfolio.git/static/js/2.7e41dff7.chunk.js",
-    "static/js/2.7e41dff7.chunk.js.map": "/reeena-1994/Portfolio.git/static/js/2.7e41dff7.chunk.js.map",
-    "index.html": "/reeena-1994/Portfolio.git/index.html",
-    "precache-manifest.8200b377f267068691944ff2841d76b6.js": "/reeena-1994/Portfolio.git/precache-manifest.8200b377f267068691944ff2841d76b6.js",
-    "service-worker.js": "/reeena-1994/Portfolio.git/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/reeena-1994/Portfolio.git/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.7e41dff7.chunk.js.LICENSE": "/reeena-1994/Portfolio.git/static/js/2.7e41dff7.chunk.js.LICENSE"
+    "main.css": "/Portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a61a1608.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a61a1608.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.4005ac6c.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.4005ac6c.js.map",
+    "static/js/2.7e41dff7.chunk.js": "/Portfolio/static/js/2.7e41dff7.chunk.js",
+    "static/js/2.7e41dff7.chunk.js.map": "/Portfolio/static/js/2.7e41dff7.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.552c20bb4a6122d67fc1711550415500.js": "/Portfolio/precache-manifest.552c20bb4a6122d67fc1711550415500.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7e41dff7.chunk.js.LICENSE": "/Portfolio/static/js/2.7e41dff7.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.291a6a92.js",
+    "static/js/runtime-main.4005ac6c.js",
     "static/js/2.7e41dff7.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.468eea20.chunk.js"
+    "static/js/main.a61a1608.chunk.js"
   ]
 }
