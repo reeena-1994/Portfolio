@@ -1,0 +1,47 @@
+.about-main {
+    position: relative;
+    font-family: 'arial black';
+  }
+  .introduction-container {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 rgb(110, 110, 110),
+                 -1px 1px 0 #DDDDDD,
+                 1px -1px 0 #DDDDDD,
+                 -1px -1px 0 #DDDDDD;
+  }
+  .myself,.hobby {
+    position: absolute;
+    list-style: none;
+    top: 200px;
+  }
+  .myself-title,.hobby-title {
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight:  bold;
+  }
+  .myself-list,.hobby-list {
+    margin-bottom: 70px;
+  }
+  .myself {
+    left: 210px;
+  }
+  .hobby {
+    left: 800px;
+  }
+  .about-title-text {
+    margin-top: 240px;
+    right: 30px;
+    position: absolute;
+  }
+  .myself-list-text,.hobby-list-text {
+    position: relative;
+  }
+  .myself-text,.hobby-text {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+  }
+  .introduction-hobby-text {
+    font-weight:  bold;
+  }
