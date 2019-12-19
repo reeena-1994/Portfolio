@@ -1,0 +1,19 @@
+.work-main {
+    position: relative;
+  }
+  .work-title-text, .work1,.work2 {
+    position: absolute;
+    font-family: 'arial black';
+  }
+  .work-title-text {
+    top: 400px;
+    left: 30px;
+  }
+  .work1 {
+    top: 250px;
+    left: 250px;
+  }
+  .work2 {
+    top: 250px;
+    left: 850px;
+  }

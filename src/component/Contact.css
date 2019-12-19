@@ -1,0 +1,22 @@
+.contact-main {
+    font-family: 'arial black';
+  }
+  .contact-container {
+    text-align: center;
+  }
+  .fab {
+    margin-top: 300px;
+    font-size: 50px;
+    color: #919191;
+  }
+  .email-text {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0 #DDDDDD,
+                 -1px 1px 0 #DDDDDD,
+                 1px -1px 0 #DDDDDD,
+                 -1px -1px 0 #DDDDDD;
+  }
+  .contact-title-text {
+    margin-right: 30px;
+    margin-top: 250px;
+  }
