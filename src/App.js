@@ -1,25 +1,39 @@
 import React, { Component } from 'react';
+import '/App.css';
+import Home from './component/Home';
+import About from './component/About';
+import Work from './component/Work';
+import Contact from './component/Contact';
 import { HashRouter, Route, Link } from "react-router-dom";
+import { Layout, Navigation, Drawer, } from 'react-mdl';
 
 class App extends Component {
   render() {
     return (
-    <HashRouter basename='/'>
-      <div>
-        <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        </ul>
-        <hr />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </div>
-    </HashRouter>
+        <div className="demo-big-content">
+            <Layout>
+                <div className="header">
+                    <Navigation>
+                    </Navigation>
+                </div>
+                <Drawer>
+                    <Navigation>
+                    <Link to="/">Home</Link>
+                    <Link to="/About">About</Link>
+                    <Link to="/Work">Work</Link>
+                    <Link to="/Contact">Contact</Link>
+                    </Navigation>
+                </Drawer>
+            </Layout>
+            <HashRouter basename = '/'>
+                <Route exact path={'/'} component={Home}/>
+                    <Route path={'/about'}  component={About}/>
+                    <Route path={'/work'} component={Work}/>
+                    <Route path={'/contact'} component={Contact}/>
+            </ HashRouter >
+        </div>
   );
 }
 }
-
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
 
 export default App;
