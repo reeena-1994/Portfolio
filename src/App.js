@@ -18,10 +18,10 @@ class App extends Component {
                     </div>
                     <Drawer>
                         <Navigation>
-                        <Link to="/">Home</Link>
-                        <Link to="/About"><div className="icon-text"><i class="far fa-heart"></i>About</div></Link>
-                        <Link to="/Work">Work</Link>
-                        <Link to="/Contact">Contact</Link>
+                        <Link to="/"><div className="icon-text"><i className="fas fa-home"></i>Home</div></Link>
+                        <Link to="/About"><div className="icon-text"><i className="far fa-heart"></i>About</div></Link>
+                        <Link to="/Work"><div className="icon-text"><i className="fas fa-desktop"></i>Work</div></Link>
+                        <Link to="/Contact"><div className="icon-text"><i className="far fa-paper-plane"></i>Contact</div></Link>
                         </Navigation>
                     </Drawer>
                 </Layout>
