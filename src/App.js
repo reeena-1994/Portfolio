@@ -1,4 +1,4 @@
-import React, { Component, Button } from 'react';
+import React, { Component } from 'react';
 import Home from './component/Home';
 import About from './component/About';
 import Work from './component/Work';
@@ -23,7 +23,6 @@ class App extends Component {
                         <Link to="/Work"><div className="icon-text"><i className="fas fa-desktop"></i>Work</div></Link>
                         <Link to="/Contact"><div className="icon-text"><i className="far fa-paper-plane"></i>Contact</div></Link>
                         </Navigation>
-                        <Button class="mdl-layout__drawer-button" ></Button>
                     </Drawer>
                 </Layout>
                 <Route exact path={'/'} component={Home}/>
