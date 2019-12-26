@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Button } from 'react';
 import Home from './component/Home';
 import About from './component/About';
 import Work from './component/Work';
 import Contact from './component/Contact';
-import { HashRouter, Route, Link, Button } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import { Layout, Navigation, Drawer, } from 'react-mdl';
 
 class App extends Component {
