@@ -19,9 +19,9 @@ class App extends Component {
                     <Drawer>
                         <Navigation>
                         <Link to="/"><i className="fas fa-home">Home</i></Link>
-                        <Link to="/About">About</Link>
-                        <Link to="/Work">Work</Link>
-                        <Link to="/Contact">Contact</Link>
+                        <Link to="/About"><i class="far fa-poo">About</i></Link>
+                        <Link to="/Work"><i class="fas fa-desktop">Work</i></Link>
+                        <Link to="/Contact"><i class="far fa-paper-plane">Contact</i></Link>
                         </Navigation>
                     </Drawer>
                 </Layout>
