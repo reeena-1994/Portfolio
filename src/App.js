@@ -9,7 +9,7 @@ import { Layout, Navigation, Drawer, } from 'react-mdl';
 class App extends Component {
   render() {
     return (
-        <div className="demo-big-content">
+        <div className="content">
             <HashRouter basename = '/'>
                 <Layout>
                     <div className="header">
@@ -18,7 +18,7 @@ class App extends Component {
                     </div>
                     <Drawer>
                         <Navigation>
-                        <Link to="/">Home</Link>
+                        <Link to="/"><i className="fas fa-home">Home</i></Link>
                         <Link to="/About">About</Link>
                         <Link to="/Work">Work</Link>
                         <Link to="/Contact">Contact</Link>
