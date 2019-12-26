@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="./node_modules/magic-snowflakes/dist/snowflakes.min.js"></script>
+
     <title>PortfolioSite</title>
   </head>
   <body>
+    <button onclick="msfStart()">雪を降らす</button>
+    <button onclick="msfEnd()">雪を止める</button>
+    <script>
+        // オプション設定
+        var msfProp = {
+            color: '#0065b2',
+            wind: true,
+            speed: 3,
+            minSize: 10,
+            maxSize: 32,
+            rotation: false
+        };
+        var msf;
+        // 雪を降らす
+        function msfStart() {
+            if (msf) {
+                msf.start();
+            } else {
+                msf = Snowflakes(msfProp);
+            }
+        }
+        // 雪を止める
+        function msfEnd() {
+            if (msf) {
+                msf.destroy();
+                msf = null;
+            }
+        }
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
