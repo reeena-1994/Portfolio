@@ -63,6 +63,8 @@
       margin: 0 auto;
   }
   .About-border, .Work-border, .Contact-border {
+    width: 250px;
+    height: 250px;
     border: 2px dashed rgb(34, 34, 34);
   }
   .About, .Work, .Contact {
@@ -71,8 +73,6 @@
     left: 25%;
   }
   .About-text, .Work-text, .Contact-text {
-    width: 250px;
-    height: 250px;
     font-size: 25px;
   }
   .About {
