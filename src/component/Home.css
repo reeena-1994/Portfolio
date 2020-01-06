@@ -11,10 +11,10 @@
 .About, .Work, .Contact {
   position: absolute;
   margin-top: 100px;
-}
-.About {
   width: 250px;
   height: 250px;
+}
+.About {
   left: 390px;
   top: 0;
   background-color: rgba(255, 245, 255, 0.68);
@@ -30,8 +30,6 @@
                 -1px -1px 0 #DDDDDD;
 }
 .Work {
-  width: 250px;
-  height: 250px;
   left: 590px;
   top: 210px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -46,8 +44,6 @@
                 -1px -1px 0 white;
 }
 .Contact {
-  width: 250px;
-  height: 250px;
   left: 800px;
   top: 410px;
   background-color: rgba(255, 245, 255, 0.680);
@@ -65,6 +61,11 @@
   .Home-img { display:none;}
   .My-portfolio {
       margin: 0 auto;
+  }
+  .About, .Work, .Contact {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
   }
   .About-text, .Work-text, .Contact-text {
     font-size: 25px;
