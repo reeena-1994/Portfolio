@@ -4,12 +4,19 @@ import About from './component/About';
 import Work from './component/Work';
 import Contact from './component/Contact';
 import { HashRouter, Route, Link } from "react-router-dom";
-import { Layout, Navigation, Drawer, } from 'react-mdl';
+import { Layout, Navigation, Drawer } from 'react-mdl';
+import {MediaQuery, SmartPhoneContents, PCContents } from "react-responsive";
 
 class App extends Component {
   render() {
     return (
         <div className="content">
+            <MediaQuery query="(max-width: 767px)">
+                <SmartPhoneContents />
+            </MediaQuery>
+            <MediaQuery query="(min-width: 767px)">
+                <PCContents />
+            </MediaQuery>
             <HashRouter basename = '/'>
                 <Layout>
                     <div className="header">
