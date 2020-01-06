@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css';
+import './snow.js';
 import img from './background.jpeg';
 import { Link, } from 'react-router-dom'
 
