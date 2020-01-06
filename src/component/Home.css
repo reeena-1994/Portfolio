@@ -64,7 +64,6 @@
   }
   .About-border, .Work-border, .Contact-border {
     border: 2px dashed rgb(34, 34, 34);
-    padding: 20px;
   }
   .About, .Work, .Contact {
     margin-top: 100px;
@@ -80,7 +79,7 @@
   }
   .Work {
     top: 210px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(153, 96, 96, 0.5);
   }
   .Contact {
     top: 410px;
