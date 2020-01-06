@@ -62,6 +62,10 @@
   .My-portfolio {
       margin: 0 auto;
   }
+  .content-border {
+    border: 2px dashed rgb(34, 34, 34);
+    padding: 20px;
+  }
   .About, .Work, .Contact {
     margin-top: 100px;
     width: 200px;
@@ -73,8 +77,6 @@
   }
   .About {
     background-color: rgba(255, 245, 255, 0.68);
-    border: 1px dashed rgb(34, 34, 34);
-    padding: 20px;
   }
   .Work {
     top: 210px;
