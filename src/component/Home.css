@@ -71,6 +71,8 @@
     left: 25%;
   }
   .About-text, .Work-text, .Contact-text {
+    width: 250px;
+    height: 250px;
     font-size: 25px;
   }
   .About {
