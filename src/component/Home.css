@@ -74,6 +74,7 @@
   .About {
     background-color: rgba(255, 245, 255, 0.68);
     border: 2px dashed black;
+    padding: 20px;
   }
   .Work {
     top: 210px;
