@@ -66,17 +66,10 @@
                 -1px -1px 0 #DDDDDD;
 }
 @media screen and (max-width:575px) {
-  .home-title-text {
-    padding-top: 15px;
-    margin-left: 30px;
-  }
   .My-portfolio {
-    position: relative;
     text-align: center;
   }
   .About, .Work, .Contact {
-    position: absolute;
-    margin-top: 100px;
   }
   .About {
     width: 200px;
