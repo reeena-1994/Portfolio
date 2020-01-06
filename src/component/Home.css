@@ -64,7 +64,7 @@
 @media screen and (max-width:575px) {
   .My-portfolio {
     text-align: center;
-      width: 100%;
+      width: 50%;
       margin: 0 auto;
   }
   .About {
