@@ -12,8 +12,8 @@ class Home extends React.Component {
     return(
         <div className="home__main">
             <div className="My-portfolio">
-                <img src={img} className="Home-img" alt="logo" />
                 <Link style={style.linkLine} to="/About">
+                  <img src={img} className="Home-img" alt="logo" />
                   <div className="About">
                     <div className="About-text">About</div>
                   </div>
