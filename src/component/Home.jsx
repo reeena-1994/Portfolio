@@ -13,13 +13,15 @@ class Home extends React.Component {
         <div className="home__main">
             <div className="My-portfolio">
                 <img src={img} className="Home-img" alt="logo" />
+                <div className="About-border">
+
                 <Link style={style.linkLine} to="/About">
                     <div className="About">
-                      <div className="About-border">
                         <div className="About-text">About</div>
                       </div>
-                  </div>
                 </Link>
+                </div>
+
                 <Link style={style.linkLine} to="/Work">
                   <div className="Work">
                     <div className="Work-border">
