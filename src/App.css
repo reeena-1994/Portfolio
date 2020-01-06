@@ -1,0 +1,17 @@
+.smartphone__area {
+	display: none;
+}
+
+.pc__area {
+	display: block;
+}
+
+@media screen and (min-width: 767px) {
+	.smartphone_area {
+		display: block;
+	}
+
+	.pc__area {
+		display: none;
+	}
+}
