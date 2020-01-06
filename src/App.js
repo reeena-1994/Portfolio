@@ -9,7 +9,8 @@ import { Layout, Navigation, Drawer, } from 'react-mdl';
 class App extends Component {
   render() {
     return (
-        <div className="content">
+        <div className="pc-area">
+            <div className="content">
             <HashRouter basename = '/'>
                 <Layout>
                     <div className="header">
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route exact path={'/work'} component={Work}/>
                 <Route exact path={'/contact'} component={Contact}/>
             </ HashRouter >
+            </div>
         </div>
      );
   }
