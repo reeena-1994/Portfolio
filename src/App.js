@@ -15,6 +15,7 @@ class App extends Component {
                     <div className="header">
                         <Navigation>
                         </Navigation>
+                    </div>
                     <Drawer>
                         <Navigation>
                         <Link to="/"><div className="icon-text"><i className="fas fa-home"></i>Home</div></Link>
@@ -23,7 +24,6 @@ class App extends Component {
                         <Link to="/Contact"><div className="icon-text"><i className="far fa-paper-plane"></i>Contact</div></Link>
                         </Navigation>
                     </Drawer>
-                    </div>
                 </Layout>
                 <Route exact path={'/'} component={Home}/>
                 <Route exact path={'/about'}  component={About}/>
