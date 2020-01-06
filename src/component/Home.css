@@ -1,6 +1,71 @@
 .home__main {
     font-family: 'arial black';
   }
+.home-title-text {
+  padding-top: 15px;
+  margin-left: 30px;
+}
+.Home-img {
+  margin-top: 220px;
+}
+.My-portfolio {
+  position: relative;
+  text-align: center;
+}
+.About, .Work, .Contact {
+  position: absolute;
+  margin-top: 100px;
+}
+.About {
+  width: 250px;
+  height: 250px;
+  left: 390px;
+  top: 0;
+  background-color: rgba(255, 245, 255, 0.68);
+}
+.About-text {
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(252, 252, 252);
+  text-shadow: 1px 1px 0 #DDDDDD,
+                -1px 1px 0 #DDDDDD,
+                1px -1px 0 #DDDDDD,
+                -1px -1px 0 #DDDDDD;
+}
+.Work {
+  width: 250px;
+  height: 250px;
+  left: 590px;
+  top: 210px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.Work-text {
+  margin-top: 110px;
+  font-size: 25px;
+  color: #DDDDDD;
+  text-shadow: 1px 1px 0 white,
+                -1px 1px 0 white,
+                1px -1px 0 white,
+                -1px -1px 0 white;
+}
+.Contact {
+  width: 250px;
+  height: 250px;
+  left: 800px;
+  top: 410px;
+  background-color: rgba(255, 245, 255, 0.680);
+}
+.Contact-text {
+  margin-top: 190px;
+  font-size: 20px;
+  color: rgb(252, 252, 252);
+  text-shadow: 1px 1px 0 #DDDDDD,
+                -1px 1px 0 #DDDDDD,
+                1px -1px 0 #DDDDDD,
+                -1px -1px 0 #DDDDDD;
+}
+@media (min-width: 767px ) {
   .home-title-text {
     padding-top: 15px;
     margin-left: 30px;
@@ -29,9 +94,9 @@
     font-size: 20px;
     color: rgb(252, 252, 252);
     text-shadow: 1px 1px 0 #DDDDDD,
-                 -1px 1px 0 #DDDDDD,
-                 1px -1px 0 #DDDDDD,
-                 -1px -1px 0 #DDDDDD;
+                  -1px 1px 0 #DDDDDD,
+                  1px -1px 0 #DDDDDD,
+                  -1px -1px 0 #DDDDDD;
   }
   .Work {
     width: 250px;
@@ -45,9 +110,9 @@
     font-size: 25px;
     color: #DDDDDD;
     text-shadow: 1px 1px 0 white,
-                 -1px 1px 0 white,
-                 1px -1px 0 white,
-                 -1px -1px 0 white;
+                  -1px 1px 0 white,
+                  1px -1px 0 white,
+                  -1px -1px 0 white;
   }
   .Contact {
     width: 250px;
@@ -61,7 +126,9 @@
     font-size: 20px;
     color: rgb(252, 252, 252);
     text-shadow: 1px 1px 0 #DDDDDD,
-                 -1px 1px 0 #DDDDDD,
-                 1px -1px 0 #DDDDDD,
-                 -1px -1px 0 #DDDDDD;
+                  -1px 1px 0 #DDDDDD,
+                  1px -1px 0 #DDDDDD,
+                  -1px -1px 0 #DDDDDD;
   }
+
+}
