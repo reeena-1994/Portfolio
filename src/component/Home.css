@@ -1,3 +1,6 @@
+.Home-img_pc {
+  display: none;
+}
 .home__main {
     font-family: 'arial black';
   }
@@ -67,6 +70,8 @@
 
 }
 @media screen and (max-width:480px) {
+  .Home-img_sp { display:none;}
+  .Home-img_ps { display:inline;}
   .My-portfolio {
       width: 70%;
       margin: 0 auto;
