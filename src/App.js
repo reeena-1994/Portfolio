@@ -4,7 +4,7 @@ import About from './component/About';
 import Work from './component/Work';
 import Contact from './component/Contact';
 import { HashRouter, Route, Link } from "react-router-dom";
-import { Layout, Navigation, Drawer } from 'react-mdl';
+import { Layout, Navigation, Drawer, } from 'react-mdl';
 
 class App extends Component {
   render() {
