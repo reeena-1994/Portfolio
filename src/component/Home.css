@@ -84,7 +84,7 @@
   .About {
     width: 250px;
     height: 250px;
-    left: 200px;
+    left: 150px;
     top: 0;
     background-color: rgba(255, 245, 255, 0.68);
   }
@@ -101,7 +101,7 @@
   .Work {
     width: 250px;
     height: 250px;
-    left: 400px;
+    left: 350px;
     top: 210px;
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -117,7 +117,7 @@
   .Contact {
     width: 250px;
     height: 250px;
-    left: 610px;
+    left: 560px;
     top: 410px;
     background-color: rgba(255, 245, 255, 0.680);
   }
