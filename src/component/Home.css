@@ -82,9 +82,9 @@
     margin-top: 100px;
   }
   .About {
-    width: 250px;
-    height: 250px;
-    left: 150px;
+    width: 200px;
+    height: 200px;
+    left: 100px;
     top: 0;
     background-color: rgba(255, 245, 255, 0.68);
   }
@@ -99,9 +99,9 @@
                   -1px -1px 0 #DDDDDD;
   }
   .Work {
-    width: 250px;
-    height: 250px;
-    left: 350px;
+    width: 200px;
+    height: 200px;
+    left: 300px;
     top: 210px;
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -115,9 +115,9 @@
                   -1px -1px 0 white;
   }
   .Contact {
-    width: 250px;
-    height: 250px;
-    left: 560px;
+    width: 200px;
+    height: 200px;
+    left: 510px;
     top: 410px;
     background-color: rgba(255, 245, 255, 0.680);
   }
