@@ -9,6 +9,7 @@
 }
 .My-portfolio {
   text-align: center;
+  position: relative;
 }
 .About, .Work, .Contact {
   position: absolute;
@@ -63,15 +64,8 @@
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
 }
-@media screen and (min-width:480px) and (max-width:1280px) {
-  .My-portfolio {
-    position: relative;
-  }
-
-}
 @media screen and (max-width:480px) {
-  .Home-img_sp { display:none;}
-  .Home-img_ps { display:inline;}
+  .Home-img { display:none;}
   .My-portfolio {
       width: 70%;
       margin: 0 auto;
