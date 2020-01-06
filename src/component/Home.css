@@ -66,6 +66,9 @@
   .My-portfolio {
       margin: 0 auto;
   }
+  .About-text, .Work-text, .Contact-text {
+    font-size: 25px;
+  }
   .About {
     width: 250px;
     height: 250px;
