@@ -62,7 +62,7 @@
   .My-portfolio {
       margin: 0 auto;
   }
-  .content-border {
+  .About-border, .WOrk-border, .Contact-border {
     border: 2px dashed rgb(34, 34, 34);
     padding: 20px;
   }
