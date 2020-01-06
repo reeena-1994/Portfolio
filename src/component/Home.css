@@ -1,10 +1,6 @@
 .home__main {
     font-family: 'arial black';
   }
-.home-title-text {
-  padding-top: 15px;
-  margin-left: 30px;
-}
 .Home-img {
   margin-top: 220px;
 }
@@ -68,8 +64,6 @@
 @media screen and (max-width:575px) {
   .My-portfolio {
     text-align: center;
-  }
-  .About, .Work, .Contact {
   }
   .About {
     width: 200px;
