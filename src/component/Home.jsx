@@ -39,11 +39,11 @@ class Home extends React.Component {
                   <li className="Contact-border">
                     <Link style={style.linkLine} to="/Contact">
                         <div className="Contact">
+                          <span className="Contact-icon fa-stack fa-lg">
+                            <i className="fa fa-square fa-stack-2x"></i>
+                            <i className="paper-plane-icon far fa-paper-plane fa-stack-1x fa-inverse"></i>
+                          </span>
                           <div className="Contact-text">Contact</div>
-                            <span className="Contact-icon fa-stack fa-lg">
-                              <i className="fa fa-square fa-stack-2x"></i>
-                              <i className="paper-plane-icon far fa-paper-plane fa-stack-1x fa-inverse"></i>
-                            </span>
                         </div>
                     </Link>
                   </li>
