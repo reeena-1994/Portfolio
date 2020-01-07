@@ -71,8 +71,11 @@
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
 }
-.paper-plane-icon {
+.Contact-icon{
   margin-top: 150px;
+  color: #e4e4e4c9;
+}
+.paper-plane-icon {
   color: #f8ffffe3;
 }
 @media screen and (max-width:575px) {
