@@ -86,6 +86,9 @@
     margin-top: 80px;
     font-size: 25px;
   }
+  .About-icon, .Work-icon, .Contact-icon {
+    margin-top: 5px;
+  }
   .About-border {
     position: relative;
   }
@@ -105,11 +108,17 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
   }
+  .Work-icon {
+    color: #a7a7a7c9;
+  }
   .Contact-border {
     position: relative;
   }
   .Contact {
     position: absolute;
     background-color: rgba(255, 245, 255, 0.68);
+  }
+  .Contact-icon {
+    color: #ffffffc9;
   }
 }
