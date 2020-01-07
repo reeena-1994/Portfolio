@@ -9,7 +9,7 @@ import { Layout, Navigation, Drawer, } from 'react-mdl';
 class App extends Component {
   render() {
     return (
-        <div className="mdl-layout__drawer-button">
+        <div className="header">
             <HashRouter basename = '/'>
                 <Layout>
                         <Navigation>
