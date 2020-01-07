@@ -2,8 +2,6 @@
     font-family: 'arial black';
     position: relative;
   }
-  @media screen and (max-width:575px) {
-.Tab-img { display:none;}
 .Home-img {
   margin-top: 220px;
 }
@@ -76,13 +74,8 @@
 .paper-plane-icon {
   color: #f8ffffe3;
 }
-}
-@media screen and (min-width:576px) and (max-width:991) {
-  .Home-img { display:none;}
-
-}
 @media screen and (max-width:575px) {
-  .Home-img, .Tab-img { display:none;}
+  .Home-img { display:none;}
   .My-portfolio {
     position: relative;
   }
