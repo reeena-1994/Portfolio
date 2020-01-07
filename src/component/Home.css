@@ -6,8 +6,10 @@
 }
 .My-portfolio {
   text-align: center;
+  position: relative;
 }
 .About, .Work, .Contact {
+  position: absolute;
   margin-top: 100px;
   width: 250px;
   height: 250px;
