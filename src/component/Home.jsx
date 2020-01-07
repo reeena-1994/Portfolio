@@ -11,30 +11,30 @@ class Home extends React.Component {
     }
     return(
         <div className="home__main">
-            <div className="My-portfolio">
+            <ul className="My-portfolio">
                 <img src={img} className="Home-img" alt="logo" />
                 <Link style={style.linkLine} to="/About">
-                  <div className="About-border">
+                  <li className="About-border">
                     <div className="About">
                       <div className="About-text">About</div>
                     </div>
-                  </div>
+                  </li>
                 </Link>
                 <Link style={style.linkLine} to="/Work">
-                  <div className="Work-border">
+                  <li className="Work-border">
                     <div className="Work">
                       <div className="Work-text">Work</div>
                     </div>
-                  </div>
+                  </li>
                 </Link>
                 <Link style={style.linkLine} to="/Contact">
-                  <div className="Contact-border">
+                  <li className="Contact-border">
                     <div className="Contact">
                       <div className="Contact-text">Contact</div>
                     </div>
-                  </div>
+                  </li>
                 </Link>
-            </div>
+            </ul>
         </div>
     )
   }
