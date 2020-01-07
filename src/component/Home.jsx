@@ -27,13 +27,13 @@ class Home extends React.Component {
                       </div>
                   </Link>
                 </li>
-                <li className="Contact-border">
-                  <Link style={style.linkLine} to="/Contact">
-                      <div className="Contact">
-                        <div className="Contact-text">Contact</div>
-                      </div>
-                  </Link>
-                </li>
+                <Link style={style.linkLine} to="/Contact">
+                  <li className="Contact-border">
+                    <div className="Contact">
+                      <div className="Contact-text">Contact</div>
+                    </div>
+                  </li>
+                </Link>
             </ul>
         </div>
     )
