@@ -61,6 +61,7 @@
   .Home-img { display:none;}
   .My-portfolio {
       margin: 0 auto;
+      list-style: none;
   }
   .About-border, .Contact-border {
     width: 220px;
