@@ -79,8 +79,8 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 0;
     left: 25%;
+    margin-bottom: 0px;
   }
   .About-text, .Work-text, .Contact-text {
     font-size: 25px;
