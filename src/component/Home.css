@@ -65,12 +65,14 @@
   .portfolio-list {
     position: absolute;
     margin-top: 150px;
+    margin-left: 30%;
     padding-left: 0;
     list-style: none;
   }
   .About, .Work, .Contact {
     width: 200px;
     height: 200px;
+    top: 0;
     left: 25%;
   }
   .About-border, .Work-border, .Contact-border {
