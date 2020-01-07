@@ -57,12 +57,21 @@
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
 }
-@media screen and (mim-width:481px) {
-  .About-icon, .Work-icon, .Contact-icon {display:none;}
+.About-icon, .Work-icon, .Contact-icon {
+  margin-top: 3px;
+  color: #e4e4e4c9;
+}
+.heart-icon {
+  color: #ff6095c9;
+}
+.pc-icon {
+  color: #999999c9;
+}
+.paper-plane-icon {
+  color: #f8ffffe3;
 }
 @media screen and (max-width:480px) {
   .Home-img { display:none;}
-  .About-icon, .Work-icon, .Contact-icon {display: inset;}
   .My-portfolio {
     position: relative;
   }
