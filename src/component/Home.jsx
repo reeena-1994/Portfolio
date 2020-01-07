@@ -13,7 +13,7 @@ class Home extends React.Component {
         <div className="home__main">
             <div className="My-portfolio">
                 <img src={img} className="Home-img" alt="logo" />
-                <ul>
+                <ul className="portfolio-list">
                   <li className="About-border">
                     <Link style={style.linkLine} to="/About">
                         <div className="About">
