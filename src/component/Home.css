@@ -78,6 +78,9 @@
   .About {
     background-color: rgba(255, 245, 255, 0.68);
   }
+  .Work-border {
+    margin:20px 0;
+  }
   .Work {
     top: 300px;
     background-color: rgba(255, 255, 255, 0.5);
