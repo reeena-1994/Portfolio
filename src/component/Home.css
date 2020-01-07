@@ -10,6 +10,7 @@
 .portfolio-list {
   padding-left: 0;
   list-style: none;
+  position: relative;
 }
 .About, .Work, .Contact {
   position: absolute;
@@ -71,6 +72,8 @@
 }
 .paper-plane-icon {
   color: #f8ffffe3;
+}
+@media screen and (min-width:481px) and (max-width:991px) {
 }
 @media screen and (max-width:480px) {
   .Home-img { display:none;}
