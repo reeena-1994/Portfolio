@@ -60,7 +60,7 @@
 @media screen and (max-width:480px) {
   .Home-img { display:none;}
   .My-portfolio {
-      margin: 0 auto;
+      padding-left: 0;
       list-style: none;
   }
   .About-border, .Contact-border {
