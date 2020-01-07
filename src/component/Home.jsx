@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css';
-import img from './background.jpeg';
+import HomeImg from './background.jpeg';
+import TabImg from './tab.png';
 import { Link, } from 'react-router-dom'
 
 class Home extends React.Component {
@@ -12,10 +13,11 @@ class Home extends React.Component {
     return(
         <div className="container">
             <div className="My-portfolio">
-                <img src={img} className="Home-img" alt="logo" />
+                <img src={HomeImg} className="Home-img" alt="logo" />
                 <ul className="portfolio-list">
                   <li className="About-border">
                     <Link style={style.linkLine} to="/About">
+                      <img src={TabImg} className="Tab-img" alt="チェック柄"></img>
                         <div className="About">
                           <div className="About-text">About</div>
                           <span className="About-icon fa-stack fa-lg">
