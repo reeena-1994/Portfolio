@@ -83,7 +83,7 @@
     margin: 0;
   }
   .About-text, .Work-text, .Contact-text {
-    margin-top: 80px;
+    margin-top: 88px;
     font-size: 25px;
   }
   .About-icon, .Work-icon, .Contact-icon {
@@ -119,6 +119,6 @@
     background-color: rgba(255, 245, 255, 0.68);
   }
   .Contact-icon {
-    color: #ffffffe8;
+    color: #d1fafcc9;
   }
 }
