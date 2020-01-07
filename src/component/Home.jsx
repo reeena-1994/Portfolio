@@ -11,30 +11,32 @@ class Home extends React.Component {
     }
     return(
         <div className="home__main">
-            <ul className="My-portfolio">
+            <div className="My-portfolio">
                 <img src={img} className="Home-img" alt="logo" />
-                <li className="About-border">
-                  <Link style={style.linkLine} to="/About">
-                      <div className="About">
-                        <div className="About-text">About</div>
-                      </div>
-                  </Link>
-                </li>
-                <li className="Work-border">
-                  <Link style={style.linkLine} to="/Work">
-                      <div className="Work">
-                        <div className="Work-text">Work</div>
-                      </div>
-                  </Link>
-                </li>
-                <Link style={style.linkLine} to="/Contact">
-                  <li className="Contact-border">
-                    <div className="Contact">
-                      <div className="Contact-text">Contact</div>
-                    </div>
+                <ul>
+                  <li className="About-border">
+                    <Link style={style.linkLine} to="/About">
+                        <div className="About">
+                          <div className="About-text">About</div>
+                        </div>
+                    </Link>
                   </li>
-                </Link>
-            </ul>
+                  <li className="Work-border">
+                    <Link style={style.linkLine} to="/Work">
+                        <div className="Work">
+                          <div className="Work-text">Work</div>
+                        </div>
+                    </Link>
+                  </li>
+                  <li className="Contact-border">
+                    <Link style={style.linkLine} to="/Contact">
+                        <div className="Contact">
+                          <div className="Contact-text">Contact</div>
+                        </div>
+                    </Link>
+                  </li>
+                </ul>
+            </div>
         </div>
     )
   }
