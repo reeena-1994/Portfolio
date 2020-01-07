@@ -87,8 +87,8 @@
     font-size: 25px;
   }
   .About-icon, .Work-icon, .Contact-icon {
-    color: #e0e0e0c9;
-    ;
+    margin-top: 3px;
+    color: rgba(255, 245, 255, 0.68);
   }
   .About-border {
     position: relative;
@@ -120,6 +120,6 @@
     background-color: rgba(255, 245, 255, 0.68);
   }
   .paper-plane-icon {
-    color: #d1fafcc9;
+    color: #e9feffe3;
   }
 }
