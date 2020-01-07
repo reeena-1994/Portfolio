@@ -74,9 +74,7 @@
 .paper-plane-icon {
   color: #f8ffffe3;
 }
-@media screen and (min-width:481px) and (max-width:991px) {
-}
-@media screen and (max-width:480px) {
+@media screen and (max-width:991px) {
   .Home-img { display:none;}
   .My-portfolio {
     position: relative;
