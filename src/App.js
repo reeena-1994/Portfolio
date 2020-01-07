@@ -28,7 +28,7 @@ class App extends Component {
                 <Route exact path={'/work'} component={Work}/>
                 <Route exact path={'/contact'} component={Contact}/>
             </ HashRouter >
-        <div className="content">
+        <div className="home__main">
         </div>
         </div>
      );
