@@ -83,11 +83,11 @@
     margin: 0;
   }
   .About-text, .Work-text, .Contact-text {
-    margin-top: 85px;
+    margin-top: 80px;
     font-size: 25px;
   }
   .About-icon, .Work-icon, .Contact-icon {
-    color: #bdbdbddc;
+    color: #e0e0e0c9;
     ;
   }
   .About-border {
