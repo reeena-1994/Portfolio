@@ -9,13 +9,11 @@ import { Layout, Navigation, Drawer, } from 'react-mdl';
 class App extends Component {
   render() {
     return (
-        <div className="content">
+        <div className="header">
             <HashRouter basename = '/'>
                 <Layout>
-                    <div className="header">
                         <Navigation>
                         </Navigation>
-                    </div>
                     <Drawer>
                         <Navigation>
                         <Link to="/"><div className="icon-text"><i className="fas fa-home"></i>Home</div></Link>
@@ -30,6 +28,8 @@ class App extends Component {
                 <Route exact path={'/work'} component={Work}/>
                 <Route exact path={'/contact'} component={Contact}/>
             </ HashRouter >
+        <div className="content">
+        </div>
         </div>
      );
   }
