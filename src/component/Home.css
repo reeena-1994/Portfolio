@@ -65,7 +65,7 @@
   .portfolio-list {
     position: absolute;
     margin-top: 100px;
-    margin-left: 18%;
+    margin-left: 20%;
     padding-left: 0;
     list-style: none;
   }
@@ -77,8 +77,8 @@
   .About, .Work, .Contact {
     width: 200px;
     height: 200px;
-    top: 10px;
-    left: 25%;
+    top: 12px;
+    left: 6%;
     margin: 0;
   }
   .About-text, .Work-text, .Contact-text {
