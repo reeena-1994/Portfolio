@@ -34,6 +34,7 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/Contact">
                         <div className="Contact">
                           <div className="Contact-text">Contact</div>
+                          <i className="far fa-paper-plane fa-2x"></i>
                         </div>
                     </Link>
                   </li>
