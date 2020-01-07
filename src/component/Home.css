@@ -9,14 +9,9 @@
   position: relative;
 }
 .portfolio-list {
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 24%;
-  padding-left: 0;
   list-style: none;
 }
 .About, .Work, .Contact {
-  position: absolute;
   margin-top: 100px;
   width: 250px;
   height: 250px;
