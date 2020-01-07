@@ -31,7 +31,7 @@ class Home extends React.Component {
                           <div className="Work-text">Work</div>
                             <span className="Work-icon fa-stack fa-lg">
                               <i className="fa fa-square fa-stack-2x"></i>
-                              <i className="pc-icon fas fa-desktopt fa-stack-1x fa-inverse"></i>
+                              <i className="pc-icon fas fa-desktop fa-stack-1x fa-inverse"></i>
                             </span>
                         </div>
                     </Link>
