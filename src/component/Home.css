@@ -93,6 +93,9 @@
     position: absolute;
     background-color: rgba(255, 245, 255, 0.68);
   }
+  .About-icon {
+    color: #ff6095c9;
+  }
   .Work-border {
     position: relative;
     margin-top: 30px;
