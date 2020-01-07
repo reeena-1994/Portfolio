@@ -65,8 +65,7 @@
   .About-border, .Work-border, .Contact-border {
     width: 220px;
     height: 220px;
-    top: 50px;
-    left: 25%;
+    margin-left: 25%;
     border: 2px dashed rgb(34, 34, 34);
   }
   .About, .Work, .Contact {
