@@ -68,36 +68,32 @@
     height: 200px;
     left: 25%;
   }
+  .About-border, .Work-border, .Contact-border {
+    width: 230px;
+    height: 230px;
+    border: 2px dashed rgb(34, 34, 34);
+  }
   .About-text, .Work-text, .Contact-text {
     font-size: 25px;
   }
   .About-border {
-    width: 220px;
-    height: 220px;
     margin-top: 50px;
     margin-left: 23%;
-    border: 2px dashed rgb(34, 34, 34);
   }
   .About {
     background-color: rgba(255, 245, 255, 0.68);
   }
   .Work-border {
-    width: 220px;
-    height: 220px;
     margin-top: 30px;
-    margin-bottom: 30;
+    margin-bottom: 30px;
     margin-left: 23%;
-    border: 2px dashed rgb(34, 34, 34);
   }
   .Work {
     top: 300px;
     background-color: rgba(255, 255, 255, 0.5);
   }
   .Contact-border {
-    width: 220px;
-    height: 220px;
     margin-left: 23%;
-    border: 2px dashed rgb(34, 34, 34);
   }
   .Contact {
     top: 600px;
