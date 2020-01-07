@@ -10,7 +10,7 @@ class Home extends React.Component {
       linkLine: {textDecoration: 'none'},
     }
     return(
-        <div className="home__main">
+        <div className="container">
             <div className="My-portfolio">
                 <img src={img} className="Home-img" alt="logo" />
                 <ul className="portfolio-list">
