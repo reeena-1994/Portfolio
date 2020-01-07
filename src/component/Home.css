@@ -1,3 +1,6 @@
+.Tab-img {
+  display: none;
+}
 .container {
     font-family: 'arial black';
     position: relative;
@@ -74,8 +77,12 @@
 .paper-plane-icon {
   color: #f8ffffe3;
 }
-@media screen and (max-width:575px) {
+@media screen and (min-width:576px) and (max-width:991) {
   .Home-img { display:none;}
+
+}
+@media screen and (max-width:575px) {
+  .Home-img, .Tab-img { display:none;}
   .My-portfolio {
     position: relative;
   }
