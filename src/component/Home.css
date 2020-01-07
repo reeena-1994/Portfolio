@@ -69,17 +69,18 @@
     padding-left: 0;
     list-style: none;
   }
+  .About-border, .Work-border, .Contact-border {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border: 2px dashed rgb(34, 34, 34);
+  }
   .About, .Work, .Contact {
     position: absolute;
     width: 200px;
     height: 200px;
     top: 0;
     left: 25%;
-  }
-  .About-border, .Work-border, .Contact-border {
-    width: 230px;
-    height: 230px;
-    border: 2px dashed rgb(34, 34, 34);
   }
   .About-text, .Work-text, .Contact-text {
     font-size: 25px;
