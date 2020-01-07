@@ -59,11 +59,10 @@
 }
 .Contact {
   left: 58%;
-  top: 370px;
+  top: 410px;
   background-color: rgba(255, 245, 255, 0.680);
 }
 .Contact-text {
-  margin-top: 190px;
   font-size: 20px;
   color: rgb(252, 252, 252);
   text-shadow: 1px 1px 0 #DDDDDD,
@@ -72,6 +71,7 @@
                 -1px -1px 0 #DDDDDD;
 }
 .paper-plane-icon {
+  margin-top: 150px;
   color: #f8ffffe3;
 }
 @media screen and (max-width:575px) {
