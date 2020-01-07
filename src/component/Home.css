@@ -6,12 +6,8 @@
 }
 .My-portfolio {
   text-align: center;
+  position: relative;
 }
-.portfolio-list {
-  padding-left: 0;
-  list-style: none;
-}
-
 .About, .Work, .Contact {
   position: absolute;
   margin-top: 100px;
@@ -19,6 +15,7 @@
   height: 250px;
 }
 .About {
+  left: 390px;
   top: 0;
   background-color: rgba(255, 245, 255, 0.68);
 }
@@ -33,7 +30,7 @@
                 -1px -1px 0 #DDDDDD;
 }
 .Work {
-  left: 400px;
+  left: 590px;
   top: 210px;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -47,7 +44,7 @@
                 -1px -1px 0 white;
 }
 .Contact {
-  left: 410px;
+  left: 800px;
   top: 410px;
   background-color: rgba(255, 245, 255, 0.680);
 }
@@ -60,21 +57,9 @@
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
 }
-.About-icon, .Work-icon, .Contact-icon {
-  margin-top: 3px;
-  color: #e4e4e4c9;
-}
-.heart-icon {
-  color: #ff6095c9;
-}
-.pc-icon {
-  color: #999999c9;
-}
-.paper-plane-icon {
-  color: #f8ffffe3;
-}
 @media screen and (max-width:480px) {
   .Home-img { display:none;}
+  .About-icon, .Work-icon, .Contact-icon {display: inset;}
   .My-portfolio {
     position: relative;
   }
