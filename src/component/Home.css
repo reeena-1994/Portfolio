@@ -61,7 +61,10 @@
   .Home-img { display:none;}
   .My-portfolio {
       padding-left: 0;
-      list-style: none;
+  }
+  .ul {
+    margin-top: 150px;
+    list-style: none;
   }
   .About, .Work, .Contact {
     width: 200px;
@@ -77,7 +80,6 @@
     font-size: 25px;
   }
   .About-border {
-    margin-top: 50px;
     margin-left: 22%;
   }
   .About {
