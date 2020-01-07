@@ -26,7 +26,7 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/Work">
                         <div className="Work">
                           <div className="Work-text">Work</div>
-                          <i className="icon fas fa-desktop fa-2x"></i>
+                          <i className="Work-icon fas fa-desktop fa-2x"></i>
                         </div>
                     </Link>
                   </li>
@@ -34,7 +34,7 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/Contact">
                         <div className="Contact">
                           <div className="Contact-text">Contact</div>
-                          <i className="icon fa-paper-plane fa-2x"></i>
+                          <i className="Contact-icon fa-paper-plane fa-2x"></i>
                         </div>
                     </Link>
                   </li>
