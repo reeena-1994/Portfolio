@@ -18,7 +18,10 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/About">
                         <div className="About">
                           <div className="About-text">About</div>
-                          <i className="About-icon far fa-heart fa-2x"></i>
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-square fa-stack-2x"></i>
+                            <i class="About-icon far fa-heart fa-stack-1x fa-inverse"></i>
+                          </span>
                         </div>
                     </Link>
                   </li>
@@ -26,7 +29,10 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/Work">
                         <div className="Work">
                           <div className="Work-text">Work</div>
-                          <i className="Work-icon fas fa-desktop fa-2x"></i>
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-square fa-stack-2x"></i>
+                              <i class="Work-icon fas fa-desktopt fa-stack-1x fa-inverse"></i>
+                            </span>
                         </div>
                     </Link>
                   </li>
@@ -34,7 +40,10 @@ class Home extends React.Component {
                     <Link style={style.linkLine} to="/Contact">
                         <div className="Contact">
                           <div className="Contact-text">Contact</div>
-                          <i className="Contact-icon far fa-paper-plane fa-2x"></i>
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-square fa-stack-2x"></i>
+                              <i class="Contact-icon far fa-paper-plane fa-stack-1x fa-inverse"></i>
+                            </span>
                         </div>
                     </Link>
                   </li>
