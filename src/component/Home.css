@@ -6,13 +6,20 @@
 }
 .My-portfolio {
   text-align: center;
-  position: relative;
+}
+.portfolio-list {
+  padding-left: 0;
+  list-style: none;
 }
 .About, .Work, .Contact {
   position: absolute;
   margin-top: 100px;
   width: 250px;
   height: 250px;
+}
+.About-icon, .Work-icon, .Contact-icon {
+  margin-top: 3px;
+  color: #e4e4e4c9;
 }
 .About {
   left: 390px;
@@ -29,6 +36,9 @@
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
 }
+.heart-icon {
+  color: #ff6095c9;
+}
 .Work {
   left: 590px;
   top: 210px;
@@ -43,6 +53,9 @@
                 1px -1px 0 white,
                 -1px -1px 0 white;
 }
+.pc-icon {
+  color: #999999c9;
+}
 .Contact {
   left: 800px;
   top: 410px;
@@ -56,20 +69,6 @@
                 -1px 1px 0 #DDDDDD,
                 1px -1px 0 #DDDDDD,
                 -1px -1px 0 #DDDDDD;
-}  .portfolio-list {
-  position: absolute;
-  padding-left: 0;
-  list-style: none;
-}
-.About-icon, .Work-icon, .Contact-icon {
-  margin-top: 3px;
-  color: #e4e4e4c9;
-}
-.heart-icon {
-  color: #ff6095c9;
-}
-.pc-icon {
-  color: #999999c9;
 }
 .paper-plane-icon {
   color: #f8ffffe3;
