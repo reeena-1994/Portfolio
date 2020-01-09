@@ -46,9 +46,10 @@
     font-weight:  bold;
   }
   @media screen and (max-width:575px) {
+    .about-main {
+      font-family: 'arial black';
+    }
     .about-title-text {
-      margin-top: 240px;
-      left: 15px;
-      position: absolute;
+      margin-top: 0;
     }
   }
