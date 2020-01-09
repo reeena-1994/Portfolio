@@ -28,12 +28,11 @@ class Home extends React.Component {
                   <li className="Work-border">
                     <Link style={style.linkLine} to="/Work">
                         <div className="Work">
-                          <div className="Work-text">Wo</div>
+                          <div className="Work-text">Work</div>
                             <span className="Work-icon fa-stack fa-lg">
                               <i className="fa fa-square fa-stack-2x"></i>
                               <i className="pc-icon fas fa-desktop fa-stack-1x fa-inverse"></i>
                             </span>
-                            <div className="Work-text">rk</div>
                         </div>
                     </Link>
                   </li>
